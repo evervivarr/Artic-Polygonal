@@ -1,4 +1,5 @@
 #include<GL/glut.h>
+//MADE FOR EVER VIVAR
 
 void inicializar()
 {
@@ -7,6 +8,7 @@ void inicializar()
 gluOrtho2D (1200,-1200,-1200,1200); // Los par�metros son para delimitar la zona de
 //trabajo GLdouble izq, GLdouble dcha, GLdouble abajo, GLdouble arriba);
 }
+
 //Graficamos 
 void graficar()
 {
@@ -85,7 +87,7 @@ glColor3f  (0.3686,0.3529,0.3411);
 glVertex2f (650,830);
 glVertex2f (450,750);
 glVertex2f (650,670);
-glEnd ( );
+glEnd ();
 
 /*8*/
 /* SECUENCIA DEL BORDE DE LA OREJA IZQUIERDA (DCHA A IZQ)01*/
@@ -94,7 +96,7 @@ glColor3f  (0.2549,0.2627,0.2509);
 glVertex2f (950,380);
 glVertex2f (630,505);
 glVertex2f (960,180);
-glEnd ( );
+glEnd ();
 
 /*9*/
 /* SECUENCIA DEL BORDE DE LA OREJA IZQUIERDA (DCHA A IZQ)02*/
@@ -103,7 +105,7 @@ glColor3f  (0.3450,0.3529,0.3411);
 glVertex2f (960,180);
 glVertex2f (630,505);
 glVertex2f (580,190);
-glEnd ( );
+glEnd ();
 
 /*10*/
 /* SECUENCIA DEL BORDE DE LA OREJA IZQUIERDA (DCHA A IZQ)03*/
@@ -112,7 +114,7 @@ glColor3f  (0.2901,0.2705,0.2470);
 glVertex2f (960,180);
 glVertex2f (580,190);
 glVertex2f (700,-60);
-glEnd ( );
+glEnd ();
 
 /*11*/
 /* SECUENCIA DEL BORDE DE LA OREJA IZQUIERDA (DCHA A IZQ)04*/
@@ -121,7 +123,7 @@ glColor3f  (0.2470,0.2666,0.2509);
 glVertex2f (960,180);
 glVertex2f (700,-60);
 glVertex2f (950,-80);
-glEnd ( );
+glEnd ();
 
 /*12*/
 /* SECUENCIA DEL BORDE DE LA OREJA IZQUIERDA (DCHA A IZQ)06*/
